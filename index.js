@@ -10,7 +10,7 @@ const CorsOption ={
     OptionSuccessStatus: 200
 }
 
-import Dummy from './models/dummy.model'
+const Dummy = require('./models/dummy.model')
 
 const app = express()
 app.use(cors(CorsOption))
